@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Geometria';
+  font-weight: 400;
+  font-style: normal;
+  src: local("Geometria-Regular"), url("../fonts/Geometria-Regular.woff2") format("woff2"), url("../fonts/Geometria-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  font-weight: 500;
+  font-style: normal;
+  src: local("Geometria-Medium"), url("../fonts/Geometria-Medium.woff2") format("woff2"), url("../fonts/Geometria-Medium.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  font-weight: 300;
+  font-style: normal;
+  src: local("Geometria-Light"), url("../fonts/Geometria-Light.woff2") format("woff2"), url("../fonts/Geometria-Light.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  font-weight: 700;
+  font-style: normal;
+  src: local("Geometria-Bold"), url("../fonts/Geometria-Bold.woff2") format("woff2"), url("../fonts/Geometria-Bold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  font-weight: 800;
+  font-style: normal;
+  src: local("Geometria-ExtraBold"), url("../fonts/Geometria-ExtraBold.woff2") format("woff2"), url("../fonts/Geometria-ExtraBold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  font-weight: 900;
+  font-style: normal;
+  src: local("Geometria-Heavy"), url("../fonts/Geometria-Heavy.woff2") format("woff2"), url("../fonts/Geometria-Heavy.woff") format("woff");
+  font-display: swap;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: 'Geometria', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/*# sourceMappingURL=style.css.map */
