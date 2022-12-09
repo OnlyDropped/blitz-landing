@@ -432,4 +432,50 @@
     }
   }
 }
+.agency {
+  padding: 60px 0 50px;
+  &__content {
+    display: grid;
+    grid-template-columns: minmax(100px, 555px) minmax(100px, 555px);
+    gap: 30px;
+  }
+  &__card {
+    background: rgba(#fff, 0.5);
+    border: 1px solid #2a94e2;
+    border-radius: 10px;
+    min-height: 279px;
+    padding: 35px 50px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: url('../img/agency/bg.svg') left top no-repeat;
+  }
+  &__heading {
+    @extend %geometria-800;
+    font-size: 22px;
+    line-height: 33px;
+  }
+  &__info {
+    max-width: 214px;
+    span {
+      font-size: 12px;
+      line-height: 20px;
+      color: rgba(#000, 0.5);
+    }
+  }
+  &__name {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+  &__phone {
+    font-size: 25px;
+    line-height: 41px;
+  }
+  &__mail {
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration-line: underline;
+  }
+}
 @import "media";

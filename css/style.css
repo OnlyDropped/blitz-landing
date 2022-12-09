@@ -64,7 +64,7 @@
   font-style: normal;
 }
 
-.title {
+.title, .agency__heading {
   font-family: 'Geometria', sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -699,5 +699,67 @@ button {
   height: 106px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.agency {
+  padding: 60px 0 50px;
+}
+
+.agency__content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(100px, 555px) minmax(100px, 555px);
+      grid-template-columns: minmax(100px, 555px) minmax(100px, 555px);
+  gap: 30px;
+}
+
+.agency__card {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #2a94e2;
+  border-radius: 10px;
+  min-height: 279px;
+  padding: 35px 50px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: url("../img/agency/bg.svg") left top no-repeat;
+}
+
+.agency__heading {
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.agency__info {
+  max-width: 214px;
+}
+
+.agency__info span {
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.agency__name {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.agency__phone {
+  font-size: 25px;
+  line-height: 41px;
+}
+
+.agency__mail {
+  font-size: 16px;
+  line-height: 26px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 /*# sourceMappingURL=style.css.map */
