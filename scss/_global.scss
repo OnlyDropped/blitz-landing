@@ -4,6 +4,17 @@
   font-style: normal;
   color: #000;
 }
+html,
+body {
+  height: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+.main{
+  flex-grow: 1;
+}
 .container {
   max-width: 1170px;
   margin: 0 auto;
